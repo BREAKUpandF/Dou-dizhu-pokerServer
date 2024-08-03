@@ -72,6 +72,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Card\Card.cs" />
+    <Compile Include="Card\CardInfo.cs" />
+    <Compile Include="Card\CardManager.cs" />
     <Compile Include="DataBase\DbManager.cs" />
     <Compile Include="Framework\ByteArray.cs" />
     <Compile Include="Framework\ClientState.cs" />
@@ -84,6 +87,9 @@
     <Compile Include="Play\PlayerData.cs" />
     <Compile Include="Play\PlayerManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proto\Battle\MsgGetCardList.cs" />
+    <Compile Include="Proto\Battle\MsgGetStartPlayer.cs" />
+    <Compile Include="Proto\Battle\MsgSwitchTurn.cs" />
     <Compile Include="Proto\HeartBeat\MsgPing.cs" />
     <Compile Include="Proto\HeartBeat\MsgPong.cs" />
     <Compile Include="Proto\Login\MsgKick.cs" />
@@ -106,5 +112,6 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

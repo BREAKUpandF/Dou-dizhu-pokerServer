@@ -189,7 +189,7 @@ public static class MsgHandler
     {
         MsgPrepare msg = msgBase as MsgPrepare;
         //msg=new MsgPrepare();
-        if (state.player == null) return; 
+        if (state.player == null) return;
         Player player = state.player;
         Room room = RoomManager.GetRoom(player.roomId);
         if (room == null)
@@ -206,9 +206,9 @@ public static class MsgHandler
         NetManager.Send(state, msg);
         //重新给房间里每一个人发送房间信息
         room.Broadcast(room.ToMsg());
-       
+
     }
-  public static void   MsgStartBattle(ClientState state, MsgBase msgBase)
+    public static void MsgStartBattle(ClientState state, MsgBase msgBase)
     {
         MsgStartBattle msg = msgBase as MsgStartBattle;
         Player player = state.player;
@@ -220,19 +220,19 @@ public static class MsgHandler
             NetManager.Send(state, msg);
             return;
         }
-        if(room.playerList.Count<=2)
+        if (room.playerList.Count <= 2)
         {
             msg.result = 1;
             NetManager.Send(state, msg);
             return;
         }
-        for(int i=0;i<room.playerList.Count;i++)
+        for (int i = 0; i < room.playerList.Count; i++)
         {
             string id = room.playerList[i];
             if (id == room.hostId) continue;
             else
             {
-                if(!room.playerDic.ContainsKey(id)||room.playerDic[id]==false)
+                if (!room.playerDic.ContainsKey(id) || room.playerDic[id] == false)
                 {
                     msg.result = 2;
                     NetManager.Send(state, msg);
@@ -240,10 +240,49 @@ public static class MsgHandler
                 }
             }
         }
+        //处理房间内的手牌信息
+        room.Start();
         msg.result = 0;
-      room.Broadcast(msg);//广播所有玩家游戏开始
+        room.Broadcast(msg);//广播所有玩家游戏开始
     }
 
+    #endregion
+    #region Battle
+    public static void MsgGetCardList(ClientState state, MsgBase msgBase)
+    {
+        MsgGetCardList msg = msgBase as MsgGetCardList;
+        if (state.player == null) return;
+        Player player = state.player;
+        Room room = RoomManager.GetRoom(player.roomId);
+        if (room == null) return;
+        CardInfo[] playCardInfo = room.GetPlayCardInfoArray(player.id);
+        msg.cardInfos = playCardInfo;
+        Console.WriteLine("玩家" + player.id + "获取手牌信息" + playCardInfo);
+        NetManager.Send(state, msg);
+    }
+    public static void MsgGetStartPlayer(ClientState state, MsgBase msgBase)
+    {
+        MsgGetStartPlayer msg = msgBase as MsgGetStartPlayer;
+        if (state.player == null) return;
+        Player player = state.player;
+        Room room = RoomManager.GetRoom(player.roomId);
+        if (room == null) return;
+        msg.id = room.currentPlayerId;
+        //我认为不需要广播，因为所有玩家进入battlePanel后都会向服务端请求
+        NetManager.Send(state, msg);
+    }
+    public static void MsgSwitchTurn(ClientState state, MsgBase msgBase)
+    {
+        MsgSwitchTurn msg = msgBase as MsgSwitchTurn;
+        if (state.player == null) return;
+        Player player = state.player;
+        Room room = RoomManager.GetRoom(player.roomId);
+        if (room == null) return;
+        room.index = (room.index + 1) % 3;
+        room.currentPlayerId = room.playerList[room.index];
+        msg.id = room.currentPlayerId;
+        room.Broadcast(msg);//广播给所有玩家
+    }
     #endregion
 }
 

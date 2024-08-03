@@ -1,12 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Card",
     "\\Framework",
     "\\obj",
     "\\Proto",
+    "\\Proto\\Battle",
     "\\Proto\\Room",
     "\\Room"
   ],
-  "SelectedNode": "\\Proto\\Room\\MsgStartBattle.cs",
+  "SelectedNode": "\\Card\\CardManager.cs",
   "PreviewInSolutionExplorer": true
 }

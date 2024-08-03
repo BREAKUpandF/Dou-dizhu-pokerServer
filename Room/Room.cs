@@ -14,11 +14,31 @@ public  class Room
     /// </summary>
     public List<string> playerList = new List<string>();
   public Dictionary<string, bool> playerDic = new Dictionary<string, bool>();
+    /// <summary
+    // 一个房间一套牌
+    /// </summary>
+    public List<Card> cardList = new List<Card>();
+
+    /// <summary
+    // 房间内的每个文件都有17张牌或20张牌
+    /// </summary>
+    public Dictionary<string, List<Card>> playerCards = new Dictionary<string, List<Card>>();
+
     /// <summary>
     /// 房间的最大玩家数量
     /// </summary>
     public int maxPlayer = 3;
     public string hostId = "";
+
+    /// <summary>
+    /// 当前操作的玩家id
+    /// </summary>
+    public string currentPlayerId;
+
+    ///<summary>
+    ///当前操作的玩家在list的索引
+    ///</summary>
+    public int index = 0;
 
     /// <summary>
     /// 房间状态
@@ -27,6 +47,11 @@ public  class Room
     {
         prepare,
         start
+    }
+    public Room()
+    {
+        //初始化牌
+        cardList = CardManager.Shuffle();
     }
     public Status status = Status.prepare;
     public bool AddPlayer(string id)
@@ -171,6 +196,48 @@ public  class Room
         }
         player.isPrepare = playerDic[id];
         return playerDic[id];
+    }
+    public  void Start()
+    {
+        Random rand = new Random();
+       this.index = rand.Next(3);
+        currentPlayerId = playerList[this.index];
+        cardList = CardManager.Shuffle();
+        //给每个玩家发牌
+        int index = 0;
+        foreach (string id in playerList)
+        {
+          playerCards[id] =  FireCards(index);
+            index += 17;
+        }
+        //设置底牌
+        List<Card> bottomCards = new List<Card>();
+        for(int i =index; i < index + 3; i++)
+        {
+            bottomCards.Add(cardList[i]);
+        }
+        //设置""来存储底牌
+        playerCards.Add("", bottomCards);
+    }
+    private List<Card> FireCards(int index)
+    {
+        List<Card> card = new List<Card>();
+        for (int i = index; i <index + 17; i++)
+        {
+            card.Add(cardList[i]);
+        }
+        return card;
+    }
+    public CardInfo[] GetPlayCardInfoArray(string id)
+    {
+        List<Card> cards = playerCards[id];
+        List<CardInfo> cardInfos = new List<CardInfo>();
+        foreach (Card card in cards)
+        {
+            CardInfo cardInfo = card.GetCardInfo();
+            cardInfos.Add(cardInfo);
+        }
+        return cardInfos.ToArray();
     }
 }
 
