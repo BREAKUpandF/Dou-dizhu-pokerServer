@@ -283,6 +283,65 @@ public static class MsgHandler
         msg.id = room.currentPlayerId;
         room.Broadcast(msg);//广播给所有玩家
     }
+
+    //处理叫地主
+    public static void MsgCall(ClientState state, MsgBase msgBase)
+    {
+        MsgCall msg = msgBase as MsgCall;
+        if (state.player == null) return;
+        Player player = state.player;
+        Room room = RoomManager.GetRoom(player.roomId);
+        if (room == null) return;
+        msg.id = player.id;
+        if (msg.call)
+        {
+            room.callId = player.id;
+            room.landLordRank[player.id] += 2;
+            if (room.CheckCall())
+            {
+                msg.result = 3;
+                room.Broadcast(msg);
+                return;
+            }
+            else
+            {
+                msg.result = 1;
+                room.Broadcast(msg);
+                return;
+            }
+        }
+        else
+        {
+            room.landLordRank[player.id]+=1;
+            if (room.CheckAllNotCall())
+            {
+                msg.result=2;//重新洗牌
+            }
+            else
+            {
+                msg.result = 0;//继续叫地主
+            }
+            room.Broadcast(msg);
+            return;
+
+        }
+    }
+    /// <summary>
+    /// 都没有叫地主重新开始
+    /// </summary>
+    /// <param name="state"></param>
+    /// <param name="msgBase"></param>
+    public static void MsgReStart(ClientState state, MsgBase msgBase)
+    {
+        MsgReStart msg = msgBase as MsgReStart;
+        if (state.player == null) return;
+        Player player = state.player;
+        Room room = RoomManager.GetRoom(player.roomId);
+        if (room == null) return;
+        room.Start();
+        NetManager.Send(state, msg);
+    }
+    //获取战斗开始收文件信息
     #endregion
 }
 

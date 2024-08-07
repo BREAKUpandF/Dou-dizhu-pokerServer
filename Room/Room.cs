@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Numerics;
 using System.Text;
@@ -23,7 +24,12 @@ public  class Room
     // 房间内的每个文件都有17张牌或20张牌
     /// </summary>
     public Dictionary<string, List<Card>> playerCards = new Dictionary<string, List<Card>>();
-
+    /// <summary>
+    /// 玩家叫地主和抢地主的权值
+    /// </summary>
+    public Dictionary<string,int>landLordRank = new Dictionary<string, int>();
+    //叫地主的玩家id
+    public string callId = "";
     /// <summary>
     /// 房间的最大玩家数量
     /// </summary>
@@ -201,14 +207,17 @@ public  class Room
     {
         Random rand = new Random();
        this.index = rand.Next(3);
-        currentPlayerId = playerList[this.index];
+        this.currentPlayerId = playerList[this.index];
         cardList = CardManager.Shuffle();
+        playerCards.Clear();
+        landLordRank.Clear();
         //给每个玩家发牌
         int index = 0;
         foreach (string id in playerList)
         {
           playerCards[id] =  FireCards(index);
             index += 17;
+            landLordRank.Add(id, -1);//添加玩家抢地主的权值
         }
         //设置底牌
         List<Card> bottomCards = new List<Card>();
@@ -218,6 +227,7 @@ public  class Room
         }
         //设置""来存储底牌
         playerCards.Add("", bottomCards);
+
     }
     private List<Card> FireCards(int index)
     {
@@ -238,6 +248,44 @@ public  class Room
             cardInfos.Add(cardInfo);
         }
         return cardInfos.ToArray();
+    }
+
+    /// <summary>
+    /// 判断玩家是不是需要抢地主了
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns>如果不需要返回true</returns>
+    public  bool CheckCall()
+    {
+        int count = 0;
+        foreach (var item in landLordRank)
+        {
+             if(item.Value == 0)
+            {
+                count++;
+            }
+        }
+        if(count == 2)
+        {
+            return true;
+        }
+        return false;
+    }
+    public bool CheckAllNotCall()
+    {
+        int count = 0;
+        foreach (var item in landLordRank)
+        {
+            if (item.Value == 0)
+            {
+                count++;
+            }
+        }
+        if (count == 3)
+        {
+            return true;
+        }
+        return false;
     }
 }
 

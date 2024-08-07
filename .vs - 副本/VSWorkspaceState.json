@@ -4,10 +4,9 @@
     "\\Framework",
     "\\obj",
     "\\Proto",
-    "\\Proto\\Battle",
     "\\Proto\\Room",
     "\\Room"
   ],
-  "SelectedNode": "\\PokerServer.sln",
+  "SelectedNode": "\\Proto\\Room\\MsgStartBattle.cs",
   "PreviewInSolutionExplorer": true
 }

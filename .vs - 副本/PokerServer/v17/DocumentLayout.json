@@ -1,0 +1,417 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\unity\\games\\PokerServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgStartBattle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Proto\\Room\\MsgStartBattle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgPrepare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Proto\\Room\\MsgPrepare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Framework\\MsgBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Framework\\MsgBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgGetRoomList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Proto\\Room\\MsgGetRoomList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Framework\\ByteArray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Framework\\ByteArray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Framework\\ClientState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Framework\\ClientState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Framework\\EventHandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Framework\\EventHandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Proto\\Room\\PlayerInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Proto\\Room\\PlayerInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Play\\PlayerData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Play\\PlayerData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgGetAchieve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Proto\\Room\\MsgGetAchieve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgCreateRoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Proto\\Room\\MsgCreateRoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Room\\RoomManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Room\\RoomManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Room\\Room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Room\\Room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Proto\\Room\\RoomInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Proto\\Room\\RoomInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Proto\\HeartBeat\\MsgPing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Proto\\HeartBeat\\MsgPing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Framework\\NetManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Framework\\NetManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Framework\\MsgHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Framework\\MsgHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Proto\\Login\\MsgKick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Proto\\Login\\MsgKick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Proto\\Login\\MsgRegister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Proto\\Login\\MsgRegister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Proto\\Login\\MsgLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Proto\\Login\\MsgLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\MainClass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainClass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\DataBase\\DbManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataBase\\DbManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Play\\PlayerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Play\\PlayerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\unity\\games\\PokerServer\\Play\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Play\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0c720079-b2d5-4f29-840e-382783199460}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MsgStartBattle.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgStartBattle.cs",
+              "RelativeDocumentMoniker": "Proto\\Room\\MsgStartBattle.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgStartBattle.cs",
+              "RelativeToolTip": "Proto\\Room\\MsgStartBattle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T12:22:55.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MsgPrepare.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgPrepare.cs",
+              "RelativeDocumentMoniker": "Proto\\Room\\MsgPrepare.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgPrepare.cs",
+              "RelativeToolTip": "Proto\\Room\\MsgPrepare.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T11:28:17.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MsgBase.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Framework\\MsgBase.cs",
+              "RelativeDocumentMoniker": "Framework\\MsgBase.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Framework\\MsgBase.cs",
+              "RelativeToolTip": "Framework\\MsgBase.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T11:25:06.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MsgGetRoomList.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgGetRoomList.cs",
+              "RelativeDocumentMoniker": "Proto\\Room\\MsgGetRoomList.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgGetRoomList.cs",
+              "RelativeToolTip": "Proto\\Room\\MsgGetRoomList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T08:14:48.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ByteArray.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Framework\\ByteArray.cs",
+              "RelativeDocumentMoniker": "Framework\\ByteArray.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Framework\\ByteArray.cs",
+              "RelativeToolTip": "Framework\\ByteArray.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T05:42:46.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientState.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Framework\\ClientState.cs",
+              "RelativeDocumentMoniker": "Framework\\ClientState.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Framework\\ClientState.cs",
+              "RelativeToolTip": "Framework\\ClientState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T05:42:43.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventHandle.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Framework\\EventHandle.cs",
+              "RelativeDocumentMoniker": "Framework\\EventHandle.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Framework\\EventHandle.cs",
+              "RelativeToolTip": "Framework\\EventHandle.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAApwCAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T02:21:31.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerInfo.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Proto\\Room\\PlayerInfo.cs",
+              "RelativeDocumentMoniker": "Proto\\Room\\PlayerInfo.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Proto\\Room\\PlayerInfo.cs",
+              "RelativeToolTip": "Proto\\Room\\PlayerInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T12:17:32.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Play\\PlayerData.cs",
+              "RelativeDocumentMoniker": "Play\\PlayerData.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Play\\PlayerData.cs",
+              "RelativeToolTip": "Play\\PlayerData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T12:07:53.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MsgGetAchieve.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgGetAchieve.cs",
+              "RelativeDocumentMoniker": "Proto\\Room\\MsgGetAchieve.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgGetAchieve.cs",
+              "RelativeToolTip": "Proto\\Room\\MsgGetAchieve.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T12:00:46.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MsgCreateRoom.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgCreateRoom.cs",
+              "RelativeDocumentMoniker": "Proto\\Room\\MsgCreateRoom.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Proto\\Room\\MsgCreateRoom.cs",
+              "RelativeToolTip": "Proto\\Room\\MsgCreateRoom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T11:54:48.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoomManager.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Room\\RoomManager.cs",
+              "RelativeDocumentMoniker": "Room\\RoomManager.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Room\\RoomManager.cs",
+              "RelativeToolTip": "Room\\RoomManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowBEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T12:20:52.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Room.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Room\\Room.cs",
+              "RelativeDocumentMoniker": "Room\\Room.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Room\\Room.cs",
+              "RelativeToolTip": "Room\\Room.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T12:15:08.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RoomInfo.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Proto\\Room\\RoomInfo.cs",
+              "RelativeDocumentMoniker": "Proto\\Room\\RoomInfo.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Proto\\Room\\RoomInfo.cs",
+              "RelativeToolTip": "Proto\\Room\\RoomInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T13:49:09.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MsgPing.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Proto\\HeartBeat\\MsgPing.cs",
+              "RelativeDocumentMoniker": "Proto\\HeartBeat\\MsgPing.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Proto\\HeartBeat\\MsgPing.cs",
+              "RelativeToolTip": "Proto\\HeartBeat\\MsgPing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:41:40.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NetManager.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Framework\\NetManager.cs",
+              "RelativeDocumentMoniker": "Framework\\NetManager.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Framework\\NetManager.cs",
+              "RelativeToolTip": "Framework\\NetManager.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAswLAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:32:24.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MsgHandler.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Framework\\MsgHandler.cs",
+              "RelativeDocumentMoniker": "Framework\\MsgHandler.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Framework\\MsgHandler.cs",
+              "RelativeToolTip": "Framework\\MsgHandler.cs",
+              "ViewState": "AQIAANwAAAAAAAAAAAAuwO8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:38:57.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MsgKick.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Proto\\Login\\MsgKick.cs",
+              "RelativeDocumentMoniker": "Proto\\Login\\MsgKick.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Proto\\Login\\MsgKick.cs",
+              "RelativeToolTip": "Proto\\Login\\MsgKick.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:38:57.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MsgRegister.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Proto\\Login\\MsgRegister.cs",
+              "RelativeDocumentMoniker": "Proto\\Login\\MsgRegister.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Proto\\Login\\MsgRegister.cs",
+              "RelativeToolTip": "Proto\\Login\\MsgRegister.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:38:57.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MsgLogin.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Proto\\Login\\MsgLogin.cs",
+              "RelativeDocumentMoniker": "Proto\\Login\\MsgLogin.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Proto\\Login\\MsgLogin.cs",
+              "RelativeToolTip": "Proto\\Login\\MsgLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T11:38:57.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainClass.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\MainClass.cs",
+              "RelativeDocumentMoniker": "MainClass.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\MainClass.cs",
+              "RelativeToolTip": "MainClass.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T10:53:38.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DbManager.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\DataBase\\DbManager.cs",
+              "RelativeDocumentMoniker": "DataBase\\DbManager.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\DataBase\\DbManager.cs",
+              "RelativeToolTip": "DataBase\\DbManager.cs",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAqwMYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T13:44:22.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Play\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "Play\\PlayerManager.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Play\\PlayerManager.cs",
+              "RelativeToolTip": "Play\\PlayerManager.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswBQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T12:38:42.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\unity\\games\\PokerServer\\Play\\Player.cs",
+              "RelativeDocumentMoniker": "Play\\Player.cs",
+              "ToolTip": "E:\\unity\\games\\PokerServer\\Play\\Player.cs",
+              "RelativeToolTip": "Play\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T12:36:20.075Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -87,8 +87,10 @@
     <Compile Include="Play\PlayerData.cs" />
     <Compile Include="Play\PlayerManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proto\Battle\MsgCall.cs" />
     <Compile Include="Proto\Battle\MsgGetCardList.cs" />
     <Compile Include="Proto\Battle\MsgGetStartPlayer.cs" />
+    <Compile Include="Proto\Battle\MsgReStart.cs" />
     <Compile Include="Proto\Battle\MsgSwitchTurn.cs" />
     <Compile Include="Proto\HeartBeat\MsgPing.cs" />
     <Compile Include="Proto\HeartBeat\MsgPong.cs" />
