@@ -1,6 +1,7 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Card",
     "\\Framework",
     "\\obj",
     "\\Proto",
@@ -8,6 +9,5 @@
     "\\Proto\\Room",
     "\\Room"
   ],
-  "SelectedNode": "\\PokerServer.sln",
   "PreviewInSolutionExplorer": true
 }
